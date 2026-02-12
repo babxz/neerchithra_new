@@ -1,8 +1,9 @@
 # frontend/streamlit/app.py
+# Force rebuild - v2
+import streamlit as st
 import plotly.express as px  
 import folium                
 import pandas as pd          
-import streamlit as st
 import requests
 import plotly.graph_objects as go
 from streamlit_folium import st_folium
