@@ -1,7 +1,7 @@
 # frontend/streamlit/app.py
-import plotly.express as px  # ← Missing!
-import folium                # ← Missing!
-import pandas as pd          # ← Missing!
+import plotly.express as px  
+import folium                
+import pandas as pd          
 import streamlit as st
 import requests
 import plotly.express as px
