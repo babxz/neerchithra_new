@@ -1,13 +1,13 @@
 # frontend/streamlit/app.py
-# Force rebuild - v2
+# Force rebuild - v3
 import streamlit as st
-import plotly.express as px  
-import folium                
-import pandas as pd          
-import requests
+import plotly.express as px
 import plotly.graph_objects as go
-from streamlit_folium import st_folium
 import folium
+from streamlit_folium import st_folium
+import pandas as pd
+import requests
+import numpy as np  # ADDED THIS
 from datetime import datetime, timedelta
 
 # Configuration
