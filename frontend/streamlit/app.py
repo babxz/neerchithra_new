@@ -1,5 +1,6 @@
 # frontend/streamlit/app.py
 import plotly.express as px  
+import plotly.express as px
 import folium                
 import pandas as pd          
 import streamlit as st
